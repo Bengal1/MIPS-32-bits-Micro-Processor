@@ -28,7 +28,7 @@ Instruction Set Architecture (ISA) is the set of instructions that a computer pr
 #### ALU
 
 ## TestBenches
-In this repository every module has its testbench to monitor and test the module. The testbenches are present variaties of inputs and states   
+In this repository every module has its testbench to monitor and test the module. The testbenches are present variaty of inputs and states to every module and test them for every state they will face.   
 
 ## References
 
