@@ -2,7 +2,7 @@
 Simple MIPS 32-bits Micro-Processor
 
 ## MIPS Processor
-MIPS (Microprocessor without Interlocked Pipelined Stages) is a family of reduced instruction set computer (RISC) instruction set architectures (ISA) developed by MIPS Computer Systems, now MIPS Technologies.
+MIPS (Microprocessor without Interlocked Pipelined Stages) is a family of reduced instruction set computer (RISC) instruction set architectures (ISA) developed by MIPS Computer Systems, now MIPS Technologies. In this repository I have implement a reduced version of MIPS 32-bit processor, and may references to MIPS will be for 32'bit technology. 
 
 ## MIPS Instruction Set Architecture (ISA)
 Instruction Set Architecture (ISA) is the set of instructions that a computer processor can understand and execute. These instructions define the operations that the processor can perform, such as arithmetic, logical operations, data movement, etc.
