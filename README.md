@@ -12,7 +12,7 @@ There are three Types (formats) of instruction in MIPS ISAs:
 
 <img src="https://github.com/Bengal1/Simple-MIPS-32-bits-Micro-Processor/assets/34989887/d7e85073-e758-4a0a-a3b3-fcaab0bf115e" width="975"/>
 
-
+This micro-processor's ISA:
 <img src="https://github.com/Bengal1/Simple-MIPS-32-bits-Micro-Processor/assets/34989887/46b85ea1-6be3-4ca7-a116-9a9d56dd1506" width="975"/>
 
 
