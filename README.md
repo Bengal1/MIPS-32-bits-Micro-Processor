@@ -1,5 +1,4 @@
 # Simple-MIPS-32-bits-Micro-Processor
-Simple MIPS 32-bits Micro-Processor
 
 ## MIPS Processor
 MIPS (Microprocessor without Interlocked Pipelined Stages) is a family of reduced instruction set computer (RISC) instruction set architectures (ISA) developed by MIPS Computer Systems, now MIPS Technologies. In this repository I have implement in *Verilog* a reduced version of MIPS 32-bit processor, and may references to MIPS will be for 32-bit technology. 
