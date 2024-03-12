@@ -6,6 +6,9 @@ MIPS (Microprocessor without Interlocked Pipelined Stages)[1] is a family of red
 
 ## Simple MIPS Instruction Set Architecture (ISA)
 
+![mips_isa_ format](https://github.com/Bengal1/Simple-MIPS-32-bits-Micro-Processor/assets/34989887/d7e85073-e758-4a0a-a3b3-fcaab0bf115e)
+
+
 ![mips_isa](https://github.com/Bengal1/Simple-MIPS-32-bits-Micro-Processor/assets/34989887/46b85ea1-6be3-4ca7-a116-9a9d56dd1506)
 
 
