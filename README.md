@@ -37,6 +37,6 @@ The `mips_top_tb` is the testbench of the `mips_top` module, the main module tha
 * ALU_Operations ([alu_operations.mem](https://github.com/Bengal1/Simple-MIPS-32-bits-Micro-Processor/blob/main/Programs/alu_operations.mem))<br />
   This program executes all the ALU operations and stores the results in memory.<br /> This program test all ALU instructions:`add`, `addu`, `sub`, `subu`, `and`, `or`, `xor`, `nor`, `slt`, `sltu`, `sll`, `srl`, `sra`, `sllv`, `srlv`, `srav`, `addi`, `addiu`, `andi`, `ori`, `xori`, `slti`, `sltiu` and also sw.
 * Jumping_Jacks ([jumping_jacks.mem](https://github.com/Bengal1/Simple-MIPS-32-bits-Micro-Processor/blob/main/Programs/jumping_jacks.mem))<br />
-  This program test all the jump instructions: `jr`, `jalr`, `j`, `jal`.
+  This program jump from address to address circularly, return in the end to the first jump instruction address, and in every cycle write to memory the number of cycles been done, such that in the end of the run time the memory stores the number of cycles. This program test all the jump instructions: `jr`, `jalr`, `j`, `jal`.
 ## References
 
