@@ -35,8 +35,8 @@ The `mips_top_tb` is the testbench of the `mips_top` module, the main module tha
 * CountDown10 ([countdown10.mem](https://github.com/Bengal1/Simple-MIPS-32-bits-Micro-Processor/blob/main/Programs/countdown10.mem))<br />
   This program count down from 10 to 0 and store every number in the memory chronologically, meaning 10 will be sored at address 0, 9 will be stored at address 1 and so on. When it's done it start all over again according to the test time and it will keep writing to the same memory addresses. This program test the instructions: `addi`, `sub`, `sw`, `lw`, `beq` & `bne`. 
 * ALU_Operations ([alu_operations.mem](https://github.com/Bengal1/Simple-MIPS-32-bits-Micro-Processor/blob/main/Programs/alu_operations.mem))<br />
-  This program executes all the ALU operations and stores the results in memory.<br /> This program test all ALU instructions:`add` and also sw.
+  This program executes all the ALU operations and stores the results in memory.<br /> This program test all ALU instructions:`add`, `addu`, `sub`, `subu`, `and`, `or`, `xor`, `nor`, `slt`, `sltu`, `sll`, `srl`, `sra`, `sllv`, `srlv`, `srav`, `addi`, `addiu`, `andi`, `ori`, `xori`, `slti`, `sltiu` and also sw.
 * Jumping_Jacks ([jumping_jacks.mem](https://github.com/Bengal1/Simple-MIPS-32-bits-Micro-Processor/blob/main/Programs/jumping_jacks.mem))<br />
-  This program test all the jump instructions: jr, jalr, j, jal.
+  This program test all the jump instructions: `jr`, `jalr`, `j`, `jal`.
 ## References
 
