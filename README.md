@@ -24,5 +24,11 @@ Instruction Set Architecture (ISA) is the set of instructions that a computer pr
 
 ### Processor's Modules
 
+#### Control
+
+### Register File
+
+#### ALU
+
 ## References
 
