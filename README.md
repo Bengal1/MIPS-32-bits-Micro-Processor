@@ -6,6 +6,7 @@ MIPS (Microprocessor without Interlocked Pipelined Stages)[1] is a family of red
 
 ## Simple MIPS Instruction Set Architecture (ISA)
 Instruction Set Architecture (ISA) is the set of instructions that a computer processor can understand and execute. These instructions define the operations that the processor can perform, such as arithmetic, logical operations, data movement, etc.
+
 There are three Types (formats) of instruction in MIPS ISAs:
 
 
