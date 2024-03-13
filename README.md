@@ -27,7 +27,7 @@ Instruction Set Architecture (ISA) is the set of instructions that a computer pr
 #### Control
 
 #### Register File
-<img src="https://github.com/Bengal1/Simple-MIPS-32-bits-Micro-Processor/assets/34989887/62abd3a7-60bf-43a4-9b17-d44c0cfde0b7"/>
+<img src="https://github.com/Bengal1/Simple-MIPS-32-bits-Micro-Processor/assets/34989887/62abd3a7-60bf-43a4-9b17-d44c0cfde0b7"  width="500"/>
 
 #### ALU
 
