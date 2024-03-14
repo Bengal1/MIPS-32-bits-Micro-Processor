@@ -47,7 +47,7 @@ A register file is an array of processor registers in a central processing unit 
 #### Memory
 In this project the memory of type *RAM*, a memory characterized by the ability of the processor to directly access, write, and read from each cell in memory according to its address, and specifically *Cache Memory*, component that stores data so that future requests for that data can be served faster.<br />
 As it can be seen, I have split the memory to two sections: *Instruction Memory* and *Data Memory*. The seperation is for convenience, and can be manged otherwise, for example using one memory module that manged by the processor's pointers.<br />
-In this design the memory depth is 65,536 words ($`2^{16}`$)
+In this design the memory depth is 65,536 words ($`2^{16}`$), 32 bit each word, meaning the volume of the memory is 64Kb  or 8KB.
 
 ## TestBenches
 In this repository every module has its testbench to monitor and test the module. The testbenches are present variaty of inputs and states to every module and test them for every state they will face.<br />
