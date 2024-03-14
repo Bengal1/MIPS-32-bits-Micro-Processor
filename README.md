@@ -34,6 +34,10 @@ A register file is an array of processor registers in a central processing unit 
 * $v - The $v Registers are used for returning values from functions.
 * $a - The $a registers are used for passing arguments to functions.
 * $t - The temporary registers are used by the assembler to store intermediate values.
+* Global Pointer ($gp) - Usually stores a pointer to the global data area.
+* Stack Pointer ($sp) - Used to store the value of the stack pointer.
+* Frame Pointer ($fp) - Used to store the value of the frame pointer.
+* Return Address ($ra) - Stores the return address (the location in the program that a function needs to return to).
 
 #### ALU
 
