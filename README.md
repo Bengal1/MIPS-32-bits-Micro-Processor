@@ -72,18 +72,18 @@ This memory can mange in single access one read, one write or read & write, neve
 
 ### Control
 The Control module is the component that decode the instruction and direct the other components in accordance with it. The control uses the control signal in order to direct the other modules in what manner to operate.<br/>
+
 ****The Control Signals:****
-* `DstReg` - select destination register (WB)
-* `ALUSrcB` - select ALU source
-* `RegWrite` - enable write back to register file 
-* `MemtoReg` - select source of write back ALU/memory
-* `MemRead` - enable memory read
-* `MemWrite` - enable memory write
-* `Jump` - indicate jump operation - j, jal
-* `Branch` - indicate branch operation - beq, bne
-* `shamtFlag` - indicate the use of shamt section - sll, srl, sra
-* `JumpReg` - indicate jump register operation - jr, jalr
-* `ALUOp` - control signals for ALU_control
+* `DstReg` - Select destination register `rt`/`rd` (WB).
+* `ALUSrcB` - Select ALU source for operand B.
+* `RegWrite` - Enable write back to register file. 
+* `MemtoReg` - Selects source of write back to register file, ALU/Memory, and enable memory read.
+* `MemWrite` - Enable memory write.
+* `Jump` - Indicate jump operation - `j`, `jal`
+* `Branch` - Indicate branch operation - `beq`, `bne`.
+* `shamtFlag` - Indicate the use of shamt field in the instruction - `sll`, `srl`, `sra`.
+* `JumpReg` - Indicate jump register operation - `jr`, `jalr`.
+* `ALUOp` - Directs the ALU with operation to perform. See 'ALU'.
 
 
 
