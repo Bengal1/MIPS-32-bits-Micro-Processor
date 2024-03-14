@@ -51,7 +51,8 @@ In this design the ALU gets as inputs `operand A, operand B, operation` and outp
   Addition (add), Unsigned Addition (addu), Subtraction (sub), Unsigned Subtraction (subu).
 * Logic Operations:<br/>
   AND, OR, XOR, NOR.
-  
+  Logic operator in a simple manner is a function that operate on a binary variable, variable with 2 possible values. in verilog logic operation are perform bitwise, reductive (logic tree that reduced to 1 bit) or on a number value (zero and non-zero).
+  In this design the logic operations are bitwise, meaning operates on a bit string (or vector) at the level of its individual bits.
   For more information: [Boolean Algebra](https://en.wikipedia.org/wiki/Boolean_algebra) or [Logical Connective](https://en.wikipedia.org/wiki/Logical_connective).
 * Shift Operations:<br/>
   Logical Left Shift (sll), Logical Right Shift (srl), Arithmetic Right Shift (sra).
