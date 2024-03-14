@@ -26,7 +26,9 @@ Instruction Set Architecture (ISA) is the set of instructions that a computer pr
 #### Control
 
 #### Register File
-A register file is an array of processor registers in a central processing unit (CPU). The instruction set architecture of a CPU will almost always define a set of registers which are used to stage data between memory and the functional units on the chip. MIPS processors have 32 registers, each of which holds a 32-bit value. — Register addresses are 5 bits long. — The data inputs and outputs are 32-bits wide.<br />
+A register file is an array of processor registers in a central processing unit (CPU). The instruction set architecture of a CPU will almost always define a set of registers which are used to stage data between memory and the functional units on the chip. MIPS processors have 32 registers, each of which holds a 32-bit value. — Register addresses are 5 bits long. — The data inputs and outputs are 32-bits wide.
+
+
 **These are the registers in MIPS architecture:** <br />
 <img src="https://github.com/Bengal1/Simple-MIPS-32-bits-Micro-Processor/assets/34989887/62abd3a7-60bf-43a4-9b17-d44c0cfde0b7"  width="500"/>
 * $zero ($0) - The *Zero* register always contains a value of 0.
