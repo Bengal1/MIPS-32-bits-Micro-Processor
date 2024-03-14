@@ -44,8 +44,20 @@ A register file is an array of processor registers in a central processing unit 
 
 #### ALU
 
+**The ALU Operations:**
+* Arithmetic Operation:
+  Addition (add), Unsigned Addition (addu), Subtraction (sub), Unsigned Subtraction (subu).
+* Logic Operations:
+  AND, OR, XOR, NOR
+* Shift Operations:
+  Logical Left Shift (sll), Logical Right Shift (srl), Arithmetic Right Shift (sra)
+
+* set less than (slt)
+* set less than unsugned (sltu)
+  
+
 #### Memory
-The memory in this project is *RAM* type, a memory characterized by the ability of the processor to directly access, write, and read from each cell in memory according to its address, and specifically *Cache Memory*, component that stores data so that future requests for that data can be served faster.<br />
+The memory in this design is *RAM* type, a memory characterized by the ability of the processor to directly access, write, and read from each cell in memory according to its address, and specifically *Cache Memory*, component that stores data so that future requests for that data can be served faster.<br />
 As it can be seen, I have split the memory to two sections: *Instruction Memory* and *Data Memory*. The seperation is for convenience, and can be manged otherwise, for example using one memory module that manged by the processor's pointers.<br />
 In this design the memory depth is 65,536 words ($`2^{16}`$), 32 bit each word, meaning the volume of the memory is 64Kb  or 8KB.<br/>
 This memory can mange in single access one read, one write or read & write, nevertheless the instruction would not support the last option in high clock frequency.
