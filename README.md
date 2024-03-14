@@ -43,7 +43,8 @@ A register file is an array of processor registers in a central processing unit 
 
 
 #### Arithmetic Logic Unit (ALU)
-An arithmetic logic unit (ALU) is a digital circuit used to perform arithmetic and logic operations. It represents the fundamental building block of the central processing unit (CPU) of a computer.
+An arithmetic logic unit (ALU) is a digital circuit used to perform arithmetic and logic operations. It represents the fundamental building block of the central processing unit (CPU) of a computer.<br/>
+In this design the ALU gets as inputs `*operand A*, *operand B* and *operation*` and outputs *result*, *zero*, *carry* and *sign*
 
 **The ALU Operations:**
 * Arithmetic Operation:<br/>
