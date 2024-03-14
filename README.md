@@ -71,6 +71,21 @@ This memory can mange in single access one read, one write or read & write, neve
 
 
 ### Control
+The Control module is the component that decode the instruction and direct the other components in accordance with it. The control uses the control signal in order to direct the other modules in what manner to operate.<br/>
+****The Control Signals:****
+* `DstReg` - select destination register (WB)
+* `ALUSrcB` - select ALU source
+* `RegWrite` - enable write back to register file 
+* `MemtoReg` - select source of write back ALU/memory
+* `MemRead` - enable memory read
+* `MemWrite` - enable memory write
+* `Jump` - indicate jump operation - j, jal
+* `Branch` - indicate branch operation - beq, bne
+* `shamtFlag` - indicate the use of shamt section - sll, srl, sra
+* `JumpReg` - indicate jump register operation - jr, jalr
+* `ALUOp` - control signals for ALU_control
+
+
 
 ## TestBenches
 In this repository every module has its testbench to monitor and test the module. The testbenches are present variaty of inputs and states to every module and test them for every state they will face.<br />
