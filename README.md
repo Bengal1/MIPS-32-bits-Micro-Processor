@@ -52,7 +52,7 @@ A register file is an array of processor registers in a central processing unit 
 * Shift Operations:<br/>
   Logical Left Shift (sll), Logical Right Shift (srl), Arithmetic Right Shift (sra).
 * Comparison Operations:<br/>
-  set less than (slt), set less than unsugned (sltu).
+  Set Less Than (slt), Set Less Than Unsigned (sltu).
   
 
 #### Memory
