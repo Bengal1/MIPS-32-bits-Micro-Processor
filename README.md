@@ -48,12 +48,11 @@ A register file is an array of processor registers in a central processing unit 
 * Arithmetic Operation:<br/>
   Addition (add), Unsigned Addition (addu), Subtraction (sub), Unsigned Subtraction (subu).
 * Logic Operations:<br/>
-  AND, OR, XOR, NOR
+  AND, OR, XOR, NOR.
 * Shift Operations:<br/>
-  Logical Left Shift (sll), Logical Right Shift (srl), Arithmetic Right Shift (sra)
-
-* set less than (slt)
-* set less than unsugned (sltu)
+  Logical Left Shift (sll), Logical Right Shift (srl), Arithmetic Right Shift (sra).
+* Comparison Operations:<br/>
+  set less than (slt), set less than unsugned (sltu).
   
 
 #### Memory
