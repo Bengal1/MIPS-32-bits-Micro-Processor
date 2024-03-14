@@ -51,6 +51,8 @@ In this design the ALU gets as inputs `operand A, operand B, operation` and outp
   Addition (add), Unsigned Addition (addu), Subtraction (sub), Unsigned Subtraction (subu).
 * Logic Operations:<br/>
   AND, OR, XOR, NOR.
+  
+  For more information: [Boolean Algebra](https://en.wikipedia.org/wiki/Boolean_algebra) or [Logical Connective](https://en.wikipedia.org/wiki/Logical_connective).
 * Shift Operations:<br/>
   Logical Left Shift (sll), Logical Right Shift (srl), Arithmetic Right Shift (sra).
 * Comparison Operations:<br/>
