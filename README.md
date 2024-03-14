@@ -50,9 +50,9 @@ In this design the ALU gets as inputs `operand A, operand B, operation` and outp
 * Arithmetic Operation:<br/>
   Addition (add), Unsigned Addition (addu), Subtraction (sub), Unsigned Subtraction (subu).<br/>
   Our Arithmetic oprators are Addition and Subtraction performed on a signed or an unsigned number.
-  *Operation on Signed Value* - usually in [two's complement format](https://en.wikipedia.org/wiki/Two%27s_complement), has a sign bit (MSB - 1 negative and 0 positive) and the opration on it should make arithmetic sense, meaning when the number of bits are extended with the sign bit to preserve the value.
+  ***Operation on Signed Value*** - usually in [two's complement format](https://en.wikipedia.org/wiki/Two%27s_complement), has a sign bit (MSB - 1 negative and 0 positive) and the opration on it should make arithmetic sense, meaning when the number of bits are extended with the sign bit to preserve the value.
   For that reason when the result overflows th number will not make arithmetic sense anymore. The range of values in signed 32-bit representation is: -2,147,483,648 to 2,147,483,647.
-  *Operation on Unsigned Value* - The range of values in unsigned 32-bit representation is: 0 to 4,294,967,296.
+  ***Operation on Unsigned Value*** - The range of values in unsigned 32-bit representation is: 0 to 4,294,967,296.
 * Logic Operations:<br/>
   AND, OR, XOR, NOR.<br/>
   Logic operator in a simple manner is a function that operate on a binary variable, variable with 2 possible values. in verilog logic operation are perform bitwise, reductive (logic tree that reduced to 1 bit) or on a number value (zero and non-zero).
@@ -61,8 +61,8 @@ In this design the ALU gets as inputs `operand A, operand B, operation` and outp
 * Shift Operations:<br/>
   Logical Left Shift (sll), Logical Right Shift (srl), Arithmetic Right Shift (sra).<br/>
   Shift is a bitwise operation that shifts all the bits of its operand in the wanted direction (left/right) a given amount.<br/>
-  *Logical Shift* - every bit in the operand is simply moved a given number of bit positions, and the vacant bit-positions are filled with zeros.<br/>
-  *Arithmetic Shift* - every bit in the operand is moved a given number of bit positions, when shifting to the right, the leftmost bit (sign bit) is replicated to fill in all the vacant positions, and when shifting to the left vacant positions filled with zeros.
+  ***Logical Shift*** - every bit in the operand is simply moved a given number of bit positions, and the vacant bit-positions are filled with zeros.<br/>
+  ***Arithmetic Shift*** - every bit in the operand is moved a given number of bit positions, when shifting to the right, the leftmost bit (sign bit) is replicated to fill in all the vacant positions, and when shifting to the left vacant positions filled with zeros.
 * Comparison Operations:<br/>
   Set Less Than (slt), Set Less Than Unsigned (sltu).<br/>
   In both operation operand A and operand B are compared and if operand A is samller than operand B the ALU set the result to be *True* (32'b1) else, the ALU set the result to be *False* (32'b0).
