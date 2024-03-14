@@ -49,7 +49,7 @@ In this design the ALU gets as inputs `operand A, operand B, operation` and outp
 **The ALU Operations:**
 * Arithmetic Operation:<br/>
   Addition (add), Unsigned Addition (addu), Subtraction (sub), Unsigned Subtraction (subu).<br/>
-  Our Arithmetic oprators are Addition and Subtraction performed on a signed or an unsigned number.
+  Our Arithmetic oprators are Addition and Subtraction performed on a signed or an unsigned number.<br/>
   ***Operation on Signed Value*** - usually in [two's complement format](https://en.wikipedia.org/wiki/Two%27s_complement), has a sign bit (MSB - 1 negative and 0 positive) and the opration on it should make arithmetic sense, meaning when the number of bits are extended with the sign bit to preserve the value.For that reason when the result overflows th number will not make arithmetic sense anymore. The range of values in signed 32-bit representation is: -2,147,483,648 to 2,147,483,647.<br/>
   ***Operation on Unsigned Value*** - Unlike in the case of a signed number, Unsigned number assumed to be positive, and therefore will make arithmetic sense in addition and subtraction, but can never be negative (in subtraction), meaning when overflow occurs the result is practically cropped. The range of values in unsigned 32-bit representation is: 0 to 4,294,967,296.
 * Logic Operations:<br/>
