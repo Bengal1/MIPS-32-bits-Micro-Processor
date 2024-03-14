@@ -56,8 +56,8 @@ In this design the ALU gets as inputs `operand A, operand B, operation` and outp
   For more information: [Boolean Algebra](https://en.wikipedia.org/wiki/Boolean_algebra) or [Logical Connective](https://en.wikipedia.org/wiki/Logical_connective).
 * Shift Operations:<br/>
   Logical Left Shift (sll), Logical Right Shift (srl), Arithmetic Right Shift (sra).<br/>
-  Shift is a bitwise operation that shifts all the bits of its operand in the wanted direction (left/right) a given amount.
-  *Logical Shift* - every bit in the operand is simply moved a given number of bit positions, and the vacant bit-positions are filled with zeros.
+  Shift is a bitwise operation that shifts all the bits of its operand in the wanted direction (left/right) a given amount.<br/>
+  *Logical Shift* - every bit in the operand is simply moved a given number of bit positions, and the vacant bit-positions are filled with zeros.<br/>s
   *Arithmetic Shift* - every bit in the operand is moved a given number of bit positions, when shifting to the right, the leftmost bit (sign bit) is replicated to fill in all the vacant positions, and when shifting to the left vacant positions filled with zeros.
 * Comparison Operations:<br/>
   Set Less Than (slt), Set Less Than Unsigned (sltu).<br/>
