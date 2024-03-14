@@ -41,6 +41,7 @@ A register file is an array of processor registers in a central processing unit 
 * Frame Pointer ($fp) - Used to store the value of the frame pointer.
 * Return Address ($ra) - Stores the return address (the location in the program that a function needs to return to).
 
+
 #### ALU
 
 #### Memory
