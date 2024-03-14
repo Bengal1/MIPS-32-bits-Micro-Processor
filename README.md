@@ -19,13 +19,13 @@ Instruction Set Architecture (ISA) is the set of instructions that a computer pr
 
 ![MIPs_diagram](https://github.com/Bengal1/Simple-MIPS-32-bits-Micro-Processor/assets/34989887/b1539d99-9b71-4f62-ba90-ce8a702f0fb4)
 
-### Design's Modules
+## Design's Modules
 
-#### Program Counter
+### Program Counter
 
-#### Control
+### Control
 
-#### Register File
+### Register File
 A register file is an array of processor registers in a central processing unit (CPU). The instruction set architecture of a CPU will almost always define a set of registers which are used to stage data between memory and the functional units on the chip. MIPS processors have 32 registers, each of which holds a 32-bit value. — Register addresses are 5 bits long. — The data inputs and outputs are 32-bits wide.
 
 
@@ -42,7 +42,7 @@ A register file is an array of processor registers in a central processing unit 
 * Return Address ($ra) - Stores the return address (the location in the program that a function needs to return to).
 
 
-#### Arithmetic Logic Unit (ALU)
+### Arithmetic Logic Unit (ALU)
 An arithmetic logic unit (ALU) is a digital circuit used to perform arithmetic and logic operations. It represents the fundamental building block of the central processing unit (CPU) of a computer.<br/>
 In this design the ALU gets as inputs `operand A, operand B, operation` and outputs `result, zero, carry, sign`. The zero bit is up when the result is zero (32'b0), the carry bit is arithmetic carry fot arithmrtic operations, and sign bit indicates the sign of the result (given the result is signed). 
 
@@ -64,7 +64,7 @@ In this design the ALU gets as inputs `operand A, operand B, operation` and outp
   In both operation operand A and operand B are compared and if operand A is samller than operand B the ALU set the result to be *True* (32'b1) else, the ALU set the result to be *False* (32'b0).
   
 
-#### Memory
+### Memory
 The memory in this design is *RAM* type, a memory characterized by the ability of the processor to directly access, write, and read from each cell in memory according to its address, and specifically *Cache Memory*, component that stores data so that future requests for that data can be served faster.<br />
 As it can be seen, I have split the memory to two sections: *Instruction Memory* and *Data Memory*. The seperation is for convenience, and can be manged otherwise, for example using one memory module that manged by the processor's pointers.<br />
 In this design the memory depth is 65,536 words ($`2^{16}`$), 32 bit each word, meaning the volume of the memory is 64Kb  or 8KB.<br/>
