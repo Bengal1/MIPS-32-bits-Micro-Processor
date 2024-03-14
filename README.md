@@ -48,14 +48,17 @@ In this design the ALU gets as inputs `operand A, operand B, operation` and outp
 
 **The ALU Operations:**
 * Arithmetic Operation:<br/>
-  Addition (add), Unsigned Addition (addu), Subtraction (sub), Unsigned Subtraction (subu).
+  Addition (add), Unsigned Addition (addu), Subtraction (sub), Unsigned Subtraction (subu).<br/>
 * Logic Operations:<br/>
-  AND, OR, XOR, NOR.
+  AND, OR, XOR, NOR.<br/>
   Logic operator in a simple manner is a function that operate on a binary variable, variable with 2 possible values. in verilog logic operation are perform bitwise, reductive (logic tree that reduced to 1 bit) or on a number value (zero and non-zero).
-  In this design the logic operations are bitwise, meaning operates on a bit string (or vector) at the level of its individual bits.
+  In this design the logic operations are bitwise, meaning operates on a bit string (or vector) at the level of its individual bits.<br/>
   For more information: [Boolean Algebra](https://en.wikipedia.org/wiki/Boolean_algebra) or [Logical Connective](https://en.wikipedia.org/wiki/Logical_connective).
 * Shift Operations:<br/>
   Logical Left Shift (sll), Logical Right Shift (srl), Arithmetic Right Shift (sra).
+  Shift is a bitwise operation that shifts all the bits of its operand in the wanted direction (left/right) a given amount.
+  *Logical Shift* - every bit in the operand is simply moved a given number of bit positions, and the vacant bit-positions are filled with zeros.
+  *Arithmetic Shift* - every bit in the operand is moved a given number of bit positions, when shifting to the right, the leftmost bit (sign bit) is replicated to fill in all the vacant positions, and when shifting to the left vacant positions filled with zeros.
 * Comparison Operations:<br/>
   Set Less Than (slt), Set Less Than Unsigned (sltu).<br/>
   In both operation operand A and operand B are compared and if operand A is samller than operand B the ALU set the result to be *True* (32'b1) else, the ALU set the result to be *False* (32'b0).
