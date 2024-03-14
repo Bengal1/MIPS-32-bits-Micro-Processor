@@ -42,7 +42,8 @@ A register file is an array of processor registers in a central processing unit 
 * Return Address ($ra) - Stores the return address (the location in the program that a function needs to return to).
 
 
-#### ALU
+#### Arithmetic Logic Unit (ALU)
+An arithmetic logic unit (ALU) is a digital circuit used to perform arithmetic and logic operations. It represents the fundamental building block of the central processing unit (CPU) of a computer.
 
 **The ALU Operations:**
 * Arithmetic Operation:<br/>
