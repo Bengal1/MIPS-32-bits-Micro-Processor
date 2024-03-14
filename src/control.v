@@ -17,8 +17,7 @@
 * DstReg                 | select destination register (WB)
 * ALUSrcB                | select ALU source
 * RegWrite               | enable write back to register file 
-* MemtoReg               | select source of write back ALU/memory
-* MemRead                | enable memory read
+* MemtoReg               | select source of write back ALU/memory & enable memory read
 * MemWrite               | enable memory write
 * Jump                   | indicate jump operation - j, jal
 * Branch                 | indicate branch operation - beq, bne
