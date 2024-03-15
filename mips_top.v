@@ -12,7 +12,6 @@
 // Author: Or Ben-Gal
 // 
 //////////////////////////////////////////////////////////////////////////////////
-
 `include "src/program_counter.v"
 `include "src/memory.v"
 `include "src/control.v"
