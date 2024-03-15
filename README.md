@@ -28,14 +28,14 @@ A register file is an array of processor registers in a central processing unit 
 **These are the registers in MIPS architecture:** <br />
 <img src="https://github.com/Bengal1/Simple-MIPS-32-bits-Micro-Processor/assets/34989887/62abd3a7-60bf-43a4-9b17-d44c0cfde0b7"  width="500"/>
 * $zero ($0) - The *Zero* register always contains a value of 0.
-* $at - The *Assembler Temporary* (at) register is used for temporary values within pseudo commands.
-* $v - The $v Registers are used for returning values from functions.
-* $a - The $a registers are used for passing arguments to functions.
-* $t - The temporary registers are used by the assembler to store intermediate values.
-* Global Pointer ($gp) - Usually stores a pointer to the global data area.
-* Stack Pointer ($sp) - Used to store the value of the stack pointer.
-* Frame Pointer ($fp) - Used to store the value of the frame pointer.
-* Return Address ($ra) - Stores the return address (the location in the program that a function needs to return to).
+* `$at` - The *Assembler Temporary* (at) register is used for temporary values within pseudo commands.
+* `$v` - The $v Registers are used for returning values from functions.
+* `$a` - The $a registers are used for passing arguments to functions.
+* `$t` - The temporary registers are used by the assembler to store intermediate values.
+* Global Pointer `$gp` - Usually stores a pointer to the global data area.
+* Stack Pointer `$sp` - Used to store the value of the stack pointer.
+* Frame Pointer `$fp` - Used to store the value of the frame pointer.
+* Return Address `$ra` - Stores the return address (the location in the program that a function needs to return to).
 
 
 ### Arithmetic Logic Unit (ALU)
