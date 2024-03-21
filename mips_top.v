@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Design Name: Simple MIPS 32-bits
+// Design Name: MIPS 32-bits
 // Module Name: mips_top
 // 
 // Description: 
