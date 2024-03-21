@@ -23,7 +23,7 @@ The J-type instructions are instructions which have an `address` field (25 bits)
 
 In the table above you can see the instruction's name, binary command and functionality. <br/>
 In our design there are 31 instructions, 18 of R-type, 11 of I-type ans 2 of J-type. This is a reduced instruction set architecture of MIPS32 that made simple in order to demonstrate the processor's functionality, This instruction set architecture can be increased quickly based on this design. <br/> 
-For more information on  [MIPS ISA](https://mips.com/products/architectures/mips32-2/). 
+For more information on  [MIPS ISA - Documentation](https://mips.com/products/architectures/mips32-2/). 
 
 
 ## ****The Processor (Core's Design)****
