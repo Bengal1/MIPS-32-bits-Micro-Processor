@@ -15,14 +15,14 @@ The R-type `opcode` is `6'b000000` for all instructions, and also R-type instruc
 The I-type instructions are instructions that uses immediate in there operation and have an `immediate` field (16 bits) for that purpose. The I-type instuctions also have two dedicated registers `rs` and `rt`, and the `opcode` act as an operations selector. The `immediate` field can be use in a binary operations as an argument, as an offset in memory access operations and as an address in branch operations.
 
 #### **J-Type**
-The J-type instructions are instructions which have an `address` field (25 bits) and the `opcode` act as an operations selector. the J-type instruction are of type jump and therefore is no reason for other fields in the instruction. in our case there are only two instructions of that type: `j` (jump) that jumps to the address in the `address` field, and `jal` (jump and link) that also jumps to the address in the `address` field plus store the 'current address + 1' in the register `$ra` (R31).
+The J-type instructions are instructions which have an `address` field (26 bits) and the `opcode` act as an operations selector. the J-type instruction are of type jump and therefore is no reason for other fields in the instruction. in our case there are only two instructions of that type: `j` (jump) that jumps to the address in the `address` field, and `jal` (jump and link) that also jumps to the address in the `address` field plus store the 'current address + 1' in the register `$ra` (R31).
 
 ### **Micro-Processor's ISA:**
 
 <img src="https://github.com/Bengal1/Simple-MIPS-32-bits-Micro-Processor/assets/34989887/46b85ea1-6be3-4ca7-a116-9a9d56dd1506" width="975"/>
 
 In the table above you can see the instruction's name, binary command and functionality. <br/>
-In our design there are 31 instructions, 18 of R-type, 11 of I-type ans 2 of J-type. This is a reduced instruction set architecture of MIPS32 that made simple in order to demonstrate the processor's functionality, This instruction set architecture can be increased quickly based on this design. <br/> 
+In our design there are 31 instructions, 18 of R-type, 11 of I-type and 2 of J-type. This is a reduced instruction set architecture of MIPS32 that made simple in order to demonstrate the processor's functionality, This instruction set architecture can be increased quickly based on this design. <br/> 
 For more information on  [MIPS ISA - Documentation](https://mips.com/products/architectures/mips32-2/). 
 
 
