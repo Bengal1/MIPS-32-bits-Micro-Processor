@@ -11,9 +11,11 @@ Instruction Set Architecture (ISA) is the set of instructions that a computer pr
 #### **R-Type**
 The R-type `opcode` is `6'b000000` for all instructions, and also R-type instructions have three dedicated registers `rs`, `rt` and `rd` as you can see in the image above (not all of them are being used in every instruction). In order to select the wanted operation there is a `funct` field (6 bits) that acts as an operations selector. Some instrutions use the `shamt` field (5 bits), which act as a five bits immediate.
 
-**I-Type Instructions** - The I-type instructions are instructions that uses immediate in there operation and have an `immediate` field (15 bits) for that purpose. The I-type instuctions also have two dedicated registers `rs` and `rt`, and the `opcode` act as an operations selector.
+#### **I-Type**
+The I-type instructions are instructions that uses immediate in there operation and have an `immediate` field (15 bits) for that purpose. The I-type instuctions also have two dedicated registers `rs` and `rt`, and the `opcode` act as an operations selector.
 
-**J-Type Instructions** - 
+#### **J-Type**
+The J-type instructions are instructions
 
 ### **This micro-processor's ISA:**
 
