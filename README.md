@@ -28,9 +28,6 @@ For more information on  [MIPS ISA - Documentation](https://mips.com/products/ar
 
 ## ****The Processor (Core's Design)****
 
-
-### Processor's Diagram
-
 ![MIPs_diagram](https://github.com/Bengal1/Simple-MIPS-32-bits-Micro-Processor/assets/34989887/b1539d99-9b71-4f62-ba90-ce8a702f0fb4)
 
 ## Design's Modules
