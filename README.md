@@ -17,7 +17,7 @@ The I-type instructions are instructions that uses immediate in there operation 
 #### **J-Type**
 The J-type instructions are instructions
 
-### **This micro-processor's ISA:**
+### **Micro-Processor's ISA:**
 
 <img src="https://github.com/Bengal1/Simple-MIPS-32-bits-Micro-Processor/assets/34989887/46b85ea1-6be3-4ca7-a116-9a9d56dd1506" width="975"/>
 
