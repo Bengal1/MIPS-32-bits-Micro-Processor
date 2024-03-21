@@ -21,7 +21,9 @@ The J-type instructions are instructions which have an `address` field (25 bits)
 
 <img src="https://github.com/Bengal1/Simple-MIPS-32-bits-Micro-Processor/assets/34989887/46b85ea1-6be3-4ca7-a116-9a9d56dd1506" width="975"/>
 
+
 In our design there are 31 instructions, 18 of R-type, 11 of I-type ans 2 of J-type.
+
 
 ## ****The Processor (Core's Design)****
 
